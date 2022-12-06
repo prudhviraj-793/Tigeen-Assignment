@@ -1,19 +1,22 @@
 import React from "react";
 import SideDrawer from "./SideDrawer";
 import logo from "../logo.png";
+import styles from "../css/Header.module.css";
 
 function Header() {
   return (
-    <div>
-      <div>
-        <SideDrawer />
-        <img src={logo} alt="Logo" />
+    <div className={styles.container}>
+      <div className={styles.header}>
+        <div>
+          <SideDrawer />
+          <img src={logo} alt="Logo" />
+        </div>
         <SideDrawer />
       </div>
-      <nav>
+      <nav className={styles.nav}>
         <ul>
           <li>
-            <a href="#">TAB ONE</a>
+            <a href="#" className={styles.active}>TAB ONE</a>
           </li>
           <li>
             <a href="#">TAB TWO</a>

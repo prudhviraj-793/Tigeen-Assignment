@@ -1,11 +1,12 @@
 import React from "react";
 import SideDrawer from "./SideDrawer";
+import styles from '../css/Footer.module.css'
 
 function Footer() {
   return (
-    <div>
+    <div className={styles.container}>
       <SideDrawer />
-      <nav>
+      <nav className={styles.nav}>
         <ul>
           <li>
             <a href="#">Mails</a>

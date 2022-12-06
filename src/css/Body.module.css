@@ -1,0 +1,44 @@
+.container {
+  border: 1px solid gray;
+  width: 40%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.text {
+  margin-bottom: 0;
+}
+
+.line {
+  width: 30%;
+  height: 1px;
+  background-color: gray;
+}
+
+.form {
+  font-size: 0.6rem;
+}
+
+.options {
+  display: flex;
+}
+
+.options div {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 0.5em;
+  background-color: #1976d3;
+  color: white;
+  border: 0;
+  padding: 0.3em 0.5em;
+  border-radius: 0.2em;
+}
+
+.wizard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

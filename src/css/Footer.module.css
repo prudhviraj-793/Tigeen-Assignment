@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0.2em;
+}
+
+.nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    margin: 0 0.5em;
+    list-style: none;
+  }
+  
+  .active {
+      border-bottom: 2px solid white;
+  }
+  
+  .nav a {
+    color: white;
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
