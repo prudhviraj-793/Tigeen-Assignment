@@ -7,16 +7,16 @@ function Header() {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <div>
-          <SideDrawer />
-          <img src={logo} alt="Logo" />
-        </div>
+        <SideDrawer />
+        <img src={logo} alt="Logo" />
         <SideDrawer />
       </div>
       <nav className={styles.nav}>
         <ul>
           <li>
-            <a href="#" className={styles.active}>TAB ONE</a>
+            <a href="#" className={styles.active}>
+              TAB ONE
+            </a>
           </li>
           <li>
             <a href="#">TAB TWO</a>
